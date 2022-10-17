@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 @GetMapping("/api/v1/students")
 public List<String> getNames(){
-	return Arrays.asList("Ram","Shyam","bheem");
+	return Arrays.asList("Ram","Shyam","bheem","bhavana");
 }
 }
